@@ -5,8 +5,12 @@ font-family: 'Lora', serif;
 font-size: 17px;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4 {
   font-family: 'Roboto', sans-serif;
+}
+
+.headline-space {
+  margin-bottom: 40px;
 }
 
 p, a {
@@ -24,12 +28,6 @@ a {
 }
 
 a:hover.btn{
-  background-color: #181a22;
-  border: 2px solid #22FFCA;
-  color: #22FFCA;
-}
-
-.btn {
   height: 50px;
   background-color: #22FFCA;
   color: #181a22;
@@ -39,19 +37,23 @@ a:hover.btn{
   font-weight: 500;
 }
 
- ul {
- list-style-type: none;
- padding: 0;
- }
+.btn {
+  border: 2px solid #22FFCA;
+  color: #22FFCA;
+  height: 50px;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  font-weight: 500;
+}
 
- li {
-  display: inline;
-   }
+.icon-container {
+  display: flex;
+  justify-content: center;
+}
 
-i.fab.fa-twitter-square.fa-3x, i.fab.fa-github-square.fa-3x  {
-  width: 25px;
-  margin: 0px 10px;
-  padding: 0px;
+.icon {
+  margin: 2px;
 }
 
 .profile-image {
@@ -65,8 +67,45 @@ i.fab.fa-twitter-square.fa-3x, i.fab.fa-github-square.fa-3x  {
   height: auto;
   margin: 20px auto;
   text-align: center;
-  padding: 40px 80px;
+  padding: 60px 80px;
   border: 1px solid rgba(255,255, 255, 0.1);
+}
+
+.movie-container {
+  display: flex;
+}
+
+.movie-description {
+  padding-left: 20px;
+  text-align: left;
+  margin-top: -10px;
+}
+
+.movie-image {
+  margin-top: 0px;
+}
+
+.divider-line {
+  height: 1px;
+  width: 250px;
+  background-color: #22FFCA;
+}
+
+.movie-description h4 {
+  line-height: 0px;
+}
+
+.movie-description p {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+.line {
+  height: 1px;
+  background-color: rgba(255,255, 255, 0.1);
+  z-index: 5;
+  margin-top: 30px;
+  margin-bottom: 30px
 }
 
 @media (max-width: 960px) {
