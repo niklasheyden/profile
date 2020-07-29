@@ -23,7 +23,7 @@ a {
   color: #22FFCA;
 }
 
-a:hover:;btn{
+a:hover.btn{
   background-color: #181a22;
   border: 2px solid #22FFCA;
   color: #22FFCA;
